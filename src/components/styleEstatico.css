@@ -1,0 +1,49 @@
+
+
+.principalIndex{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image:url("https://github.com/SoledadCatalano/Tienda/blob/main/assets/imagenes/fondo-negro.jpg?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 85vh;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    .contenedorTextoPrincipalIndex{
+        z-index: 1002;
+        margin:0 auto;
+        margin-top: 30px;
+        padding:10px;
+        border-radius: 5px;
+        text-align: center;
+        width: 50%;
+        font-size: 10px;
+        color: #367077;
+    
+        
+        
+        p{
+            font-size: 2.5em;
+        }
+        
+    }
+}
+.marca{
+    color: #367077;
+    font-size: 2em;
+}
+footer{
+   justify-items: center;
+    background-image: radial-gradient(circle, #050505, #141111, #0b0808, #161515, #0f0a0b, #181616, #181415, #251e1f, #211d1e, #231c1d, #1a1516, #101010);
+    font-size: 15px;
+    color:#367077;
+    
+    
+
+}
+
+
+  
